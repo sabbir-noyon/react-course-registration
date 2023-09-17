@@ -25,21 +25,24 @@ function App() {
       {
         return alert("Already Selected");
       }
-      setSelectedCourse([...selectedCourse, course]);
-
-
-      let calcCredit = course.credit;
-      console.log(calcCredit);
-      selectedCourse.forEach((element) => {
-        calcCredit += element.credit;
-      });
-
-      if(calcCredit > 20)
+      else
       {
-        return alert("You Can't Exceed 20 Credit");
+        let creditNow = course.credit;
+        let prevCredit = 0;
+        selectedCourse.forEach((element) => {
+          prevCredit += element.credit;
+        });
+        if(prevCredit+creditNow > 20)
+        {
+          return alert("You Can't Exceed 20 Credit");
+        }
+        
+        setTotalCredit(prevCredit+creditNow);
+        setSelectedCourse([...selectedCourse, course]);
       }
+
+
       
-      setTotalCredit(calcCredit);
       // const price = course.price;
     };
 
