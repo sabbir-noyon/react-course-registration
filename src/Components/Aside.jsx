@@ -4,8 +4,7 @@ import React from 'react';
 import './Aside.css';
 
 
-const Aside = ({ selectedCourse, totalCredit }) => {
-    let totalPrice = 0;
+const Aside = ({ selectedCourse, totalCredit, totalPrice }) => {
     
     
     return (
@@ -31,7 +30,7 @@ const Aside = ({ selectedCourse, totalCredit }) => {
                 </ol>
             </div>
             <hr className="lg:w-80 mx-auto h-2 text-[black]"></hr>
-            <h5 className="lg:-ml-5 mb-4 mt-4 text-center text-lg font-semibold text-[#1C1B1BCC]">Total Credit Hour :{totalCredit}</h5>
+            <h5 className="lg:-ml-5 mb-4 mt-4 text-center text-lg font-semibold text-[#1C1B1BCC]">Total Credit Hour : {totalCredit}</h5>
             <hr className="lg:w-80 mx-auto h-2 text-[black]"></hr>
             <h4 className="lg:-ml-5 mt-2 text-center text-lg font-bold text-[#1C1B1BCC]">Total Price : {totalPrice} USD</h4>
             

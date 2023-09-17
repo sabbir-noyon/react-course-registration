@@ -13,7 +13,7 @@ function App() {
 
   const [selectedCourse, setSelectedCourse] = useState([]);
   const [totalCredit, setTotalCredit] = useState(0);
-  // const [totalPrice, setTotalPrice] = useState(0);
+  const [totalPrice, setTotalPrice] = useState(0);
   
 
   // Function to handle the button click
@@ -29,8 +29,12 @@ function App() {
       {
         let creditNow = course.credit;
         let prevCredit = 0;
+
+        let price = course.price;
+
         selectedCourse.forEach((element) => {
           prevCredit += element.credit;
+          price+= element.price;
         });
         if(prevCredit+creditNow > 20)
         {
@@ -38,12 +42,11 @@ function App() {
         }
         
         setTotalCredit(prevCredit+creditNow);
+        setTotalPrice(price);
         setSelectedCourse([...selectedCourse, course]);
       }
 
 
-      
-      // const price = course.price;
     };
 
   return (
@@ -52,7 +55,7 @@ function App() {
       <div className="lg:flex lg:justify-between lg:px-20 md:px-40 md:pb-14 sm:pb-14 ">
         <Card  onButtonClick={handleButtonClick} ></Card>
 
-        <Aside selectedCourse={selectedCourse} totalCredit={totalCredit}></Aside>
+        <Aside selectedCourse={selectedCourse} totalCredit={totalCredit} totalPrice={totalPrice}></Aside>
       </div>
 
       
