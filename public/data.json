@@ -5,7 +5,7 @@
     "courses": [
       {
         "id": 1,
-        "img": "../src/assets/images/Rectangle 2-4.png",
+        "img": "Rectangle 2-4.png",
         "title": "Introduction to C Programming",
         "description": "Learn the fundamentals of C programming with this introductory course. Build a strong foundation in programming.",
         "price": 15000,
@@ -13,7 +13,7 @@
       },
       {
         "id": 2,
-        "img": "../src/assets/images/Rectangle 2-3.png",
+        "img": "Rectangle 2-3.png",
         "title": "Introduction to Algorithms",
         "description": "Explore the world of algorithms and problem-solving. Gain essential skills for computer science.",
         "price": 25000,
@@ -21,7 +21,7 @@
       },
       {
         "id": 3,
-        "img": "../src/assets/images/Rectangle 2-4.png",
+        "img": "Rectangle 2-4.png",
         "title": "Introduction to C++ for DSA",
         "description": "Master C++ for Data Structures and Algorithms. Enhance your programming abilities.",
         "price": 10000,
@@ -29,7 +29,7 @@
       },
       {
         "id": 4,
-        "img": "../src/assets/images/Rectangle 3.png",
+        "img": "Rectangle 3.png",
         "title": "Basic Data Structures",
         "description": "Learn essential data structures and their applications. Level up your coding skills.",
         "price": 35000,
@@ -37,7 +37,7 @@
       },
       {
         "id": 5,
-        "img": "../src/assets/images/Rectangle 2.png",
+        "img": "Rectangle 2.png",
         "title": "Introduction to OOP Python",
         "description": "Discover the power of Object-Oriented Programming in Python. Start building real-world projects.",
         "price": 19000,
@@ -45,7 +45,7 @@
       },
       {
         "id": 6,
-        "img": "../src/assets/images/Rectangle 2-5.png",
+        "img": "Rectangle 2-5.png",
         "title": "Software Engineering",
         "description": "Dive into the world of Software Engineering. Learn software development methodologies and best practices.",
         "price": 23000,
@@ -53,7 +53,7 @@
       },
       {
         "id": 7,
-        "img": "../src/assets/images/Rectangle 3-1.png",
+        "img": "Rectangle 3-1.png",
         "title": "AWS, Cloud Computing",
         "description": "Explore Amazon Web Services and Cloud Computing. Deploy scalable and reliable applications.",
         "price": 35000,
@@ -61,7 +61,7 @@
       },
       {
         "id": 8,
-        "img": "../src/assets/images/Rectangle 2-1.png",
+        "img": "Rectangle 2-1.png",
         "title": "Database (MySQL)",
         "description": "Master MySQL database management. Design and optimize databases for various applications.",
         "price": 19000,
@@ -69,7 +69,7 @@
       },
       {
         "id": 9,
-        "img": "../src/assets/images/Rectangle 2-6.png",
+        "img": "Rectangle 2-6.png",
         "title": "Problem-Solving Part",
         "description": "Enhance your problem-solving skills. Solve coding challenges and prepare for interviews.",
         "price": 23000,
