@@ -3,7 +3,9 @@
     list-style:decimal;
 }
 
+.hr{
 
-
-
-
+    font-size: 24px;
+    font-weight: 600;
+    height: 20px;
+}
