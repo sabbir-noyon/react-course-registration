@@ -1,8 +1,14 @@
-# React + Vite
+# SPA Project Course Registration
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+### Project Features
+- Created Dynamic Card Layout
+- Prevented Selecting Same Course Multiple Times.
+- Restricted Exceeding Credit Limit
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+### State Management
+
+- Used Array in useState() to Contain Cards.
+- Used Array in useState() to Store Selected Courses.
+- Used a Variable in useState() to Store Total Credits. 
